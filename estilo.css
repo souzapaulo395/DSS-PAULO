@@ -1,0 +1,46 @@
+body { /*abre o corpo da pagina -tudo o que é visivel no navegador vai aqui*/    
+    font-family: Arial,sans-serif;
+    background-color: #f0f0f0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    margin:O;
+}
+
+perfil{
+    background-color: white;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-top: 10px;
+    color: #333;
+}
+
+h2{
+    margin-top: 20px;
+    color: #555;
+    }
+
+ul{
+    list-style: none;
+    padding: O;
+}
+
+li{
+    margin: 5px O;
+    color: #666;
+}
